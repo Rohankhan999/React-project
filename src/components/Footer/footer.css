@@ -10,3 +10,8 @@
         font-size: 30px;
     }
 }
+@media screen and (max-width:845px) {
+    .text{
+        font-size:16px;
+    }
+}

@@ -11,6 +11,7 @@ function Header(){
         <p>Log in</p>
         <button>Join now</button>
       </div>
+      <h5>🔱</h5>
         </div>
     )
 }

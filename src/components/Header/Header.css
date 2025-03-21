@@ -51,3 +51,23 @@ p {
     font-size: 20px;
     cursor: pointer;
 }
+span{
+  display: none;
+}
+@media screen and (max-width:845px) {
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  h2{
+    font-size: 20px;
+    margin:0px;
+  }
+  ul li,.user{
+    display: none;
+  }
+  h5{
+    display: block;
+    /* background-color: red; */
+  }
+}
