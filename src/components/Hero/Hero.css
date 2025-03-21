@@ -1,0 +1,79 @@
+.hero {
+  width: 100%;
+  height: 90vh;
+  background-color: #141414;
+  display: flex;
+  border-bottom: 2px solid whitesmoke;
+}
+.left {
+  background-color: #141414;
+  width: 50%;
+  height: auto;
+  color: whitesmoke;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1 {
+  letter-spacing: 3px;
+  font-size: 44px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+hr {
+  padding-bottom: 20px;
+  background-color: #141414;
+  border: none;
+}
+.Right {
+  background-color: #141414;
+  width: 50%;
+  height: auto;
+}
+.para {
+  margin-left: 80px;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.strt {
+  margin-left: 75px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 35px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+img {
+  transform: rotate(20deg);
+  margin-top: 0px;
+  margin-left: 120px;
+  max-width: 100%;
+  height: auto; /* Aspect ratio maintain karega */
+  display: block; /* Extra spacing hatane ke liye */
+}
+
+@media screen and (min-width:1440px) {
+  img {
+    transform: rotate(20deg);
+    margin-top: 0px;
+    margin-left: 120px;
+    width: 60%;
+  }
+  h1{
+    font-size: 64px;
+  }
+  .para{
+   font-size: 30px;
+  }
+  .strt{
+    font-size: 22px;
+  }
+}

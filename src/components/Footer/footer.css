@@ -1,0 +1,12 @@
+.text{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+@media screen and (min-width:1440px) {
+    .text{
+        font-size: 30px;
+    }
+}
